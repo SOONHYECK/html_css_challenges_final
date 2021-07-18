@@ -1,0 +1,34 @@
+.settings__setting {
+    padding: 20px 0px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.settings__setting i {
+    opacity: 0.8;
+    margin-right: 20px;
+    font-size: 22px;
+}
+
+.settings_settting-column:last-child {
+    opacity: 0.5;
+}
+
+@keyframes hoverIconRun {
+    0% {
+        transform: none;
+    }
+    50% {
+        transform: scale(1.5);
+    }
+    0% {
+        transform: none;
+    }
+}
+
+.settings_settting-column:hover i {
+    animation: hoverIconRun 1s ease-in-out infinite;
+}
